@@ -1,0 +1,23 @@
+string chord;
+  bool valid_chord = false;
+  do {
+    std::cout << "enter a chord : ";
+    std::cin >> chord;
+    for(int i = 0; i < 8; i++) {
+      if (chord==sharp_keys[i]) {
+        root = sharp_keys[i];
+        cout << "the root is " << root << endl;
+        valid_chord = true;
+      } else if (chord==flat_keys[i]) {
+        root = flat_keys[i];
+        cout << "the minor root is " << root << endl;
+        valid_chord = true;
+      }
+    }
+    
+  } while (valid_chord == false);
+
+
+
+functions
+string get_root(string root)
