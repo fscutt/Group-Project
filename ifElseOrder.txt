@@ -1,0 +1,20 @@
+Tones(interval)
+  - root isnt affected by anything
+  - third can either be major(3) or minor(4)
+  - fifth can be perfect(7),augmented,(8) or diminished(6)
+  - seventh can be major(11), minor(10), or diminished(9)
+  - 9th can be major(2), minor(1)
+  - add 9 adds the 9th and removes the 7th
+  - 11th can be perfect(5)
+  - add 11 
+
+variables
+  - assume major if nothing
+  - minor present flattens third
+  - minor and major present flattens third but additions are major
+  - augmenting raises fifth
+
+
+
+nothing(Cmaj)
+min(flatten 3rd)

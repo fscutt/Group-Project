@@ -1,0 +1,11 @@
+-remove original chord seperation method, leaving the first part
+-replace chord checker with something less restrictive
+-work out how to scan for "maj""min""aug""dim""dom""add" chord types
+-work out how to implement the priorities for them (IF,ELSE)
+-add interval codes eg "047" for major, "037" for minor        (this will make calculating the actual notes in a set         scale alot easier)
+-add 7th, 9th, 11th, 13th as appending to the interval codes
+
+additional optional tasks
+-add chord naming reccomendations and suggestions for input formats (make it not essential to use the chosen format but highly suggested for correct understanding of what chord is being used)
+-add option to print all proven supported chord names
+-add advised omitted notes in the form of suspended chord
